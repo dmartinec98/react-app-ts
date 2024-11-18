@@ -248,7 +248,7 @@ const Home = () => {
               ></ProductCard>
             ))}
           </div>
-          <div className="flex justify-center items-center mt-6">
+          <div className="flex justify-center items-center mt-6 mb-10">
             {Array.from({ length: totalPages }, (_, index) => index + 1).map(
               (pageNumber) => (
                 <button
